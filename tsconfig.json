@@ -19,7 +19,8 @@
       "dom.iterable",
       "esnext"
     ],
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
   },
   "exclude": [
     "node_modules"
