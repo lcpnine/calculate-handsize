@@ -1,13 +1,15 @@
 @use '../abstracts/mixin';
 
-$button-big-height: 30px;
+$button-big-height: 60px;
 
 .button-big {
   @extend %center;
+  box-sizing: border-box;
   width: 240px;
   height: $button-big-height;
+  padding: 10px;
 
   & + & {
-    margin-top: $button-big-height;
+    margin-top: $button-big-height/2;
   }
 }
