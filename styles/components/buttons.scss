@@ -1,26 +1,26 @@
 @use '../abstracts/mixin';
 
-$button-big-height: 60px;
+$btn-big-height: 60px;
 
-.button-big {
+.btn-big {
   @extend %center;
   box-sizing: border-box;
   width: 240px;
-  height: $button-big-height;
+  height: $btn-big-height;
   padding: 10px;
   border-radius: 6px;
 
   & + & {
-    margin-top: $button-big-height/2;
+    margin-top: $btn-big-height/2;
   }
 }
 
-// button color
-.button-white {
+// btn color
+.btn-white {
   background-color: #fff;
   border: 1px solid #ccc;
 }
 
-.button-blue {
+.btn-blue {
   background-color: #0077CC;
 }

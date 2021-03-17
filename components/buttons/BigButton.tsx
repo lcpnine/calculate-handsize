@@ -9,7 +9,7 @@ interface BigButtonProps {
 
 const BigButton = ({ children, color, onClick }: BigButtonProps): ReactElement => {
   return (
-    <button className={`button-big button-${color}`} onClick={onClick}>
+    <button className={`btn-big btn-${color}`} onClick={onClick}>
       {children}
     </button>
   )
