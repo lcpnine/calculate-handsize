@@ -8,8 +8,19 @@ $button-big-height: 60px;
   width: 240px;
   height: $button-big-height;
   padding: 10px;
+  border-radius: 6px;
 
   & + & {
     margin-top: $button-big-height/2;
   }
+}
+
+// button color
+.button-white {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.button-blue {
+  background-color: #0077CC;
 }
