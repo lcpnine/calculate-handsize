@@ -1,4 +1,4 @@
-const enum ButtonColor {
+enum ButtonColor {
   BLUE = 'blue',
   WHITE = 'white',
 }
