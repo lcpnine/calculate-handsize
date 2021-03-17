@@ -20,7 +20,7 @@
       "esnext"
     ],
     "strict": true,
-    "baseUrl": ".",
+    "baseUrl": "."
   },
   "exclude": [
     "node_modules"
