@@ -1,0 +1,13 @@
+@use '../abstracts/mixin';
+
+$button-big-height: 30px;
+
+.button-big {
+  @extend %center;
+  width: 240px;
+  height: $button-big-height;
+
+  & + & {
+    margin-top: $button-big-height;
+  }
+}

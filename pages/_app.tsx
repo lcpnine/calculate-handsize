@@ -1,7 +1,10 @@
-import type { AppProps } from 'next/app';
-import { FC } from 'react';
+import type { AppProps } from 'next/app'
+import { FC } from 'react'
 
-import '../styles/global.scss';
+import 'styles/base/reset.scss'
+import 'styles/base/global.scss'
+import 'styles/components/buttons.scss'
+import 'styles/layout/main.scss'
 
 const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
@@ -10,7 +13,7 @@ const MyApp: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
         <Component {...pageProps} />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default MyApp;
+export default MyApp
